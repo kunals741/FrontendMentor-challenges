@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/DesktopView.png)
-![](/images/MobileView.png)
+![](./images/DesktopView.png)
+![](./images/MobileView.png)
 
 ### Links
 
-- Solution URL: [FrontendMentor](https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-WHmjo2vaL)
+- Live Site URL: (https://3cardview.netlify.app/)
 
 ## My process
 
