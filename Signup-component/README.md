@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-sign-up-component-using-grid-and-flexbox-nsLQBE06H)
+- Live Site URL: [SignUp Component](https://signup0component.netlify.app/)
 
 ## My process
 
