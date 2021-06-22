@@ -23,27 +23,31 @@
 
   <div class="form-container">
 
-    <form action="" onsubmit="return false" novalidate>
+    <form action="post" onsubmit="return false" novalidate="novalidate">
       <div class="input_wrapper">
-        <input type="text" placeholder="First Name" class="fName" value="">
+        <label for="fName">
+        <input type="text" name="fName" placeholder="First Name" class="fName" value="">
         <p class="errorMsg ferror">First Name cannot be empty<img src="./images/icon-error.svg" alt="icon-error"
             class="icon-error f-icon"></p>
       </div>
 
       <div class="input_wrapper">
-        <input type="text" placeholder="Last Name" class="lName" value="">
+         <label for="lName">
+        <input type="text" name="lName" placeholder="Last Name" class="lName" value="">
         <p class="errorMsg lerror">Last Name cannot be empty<img src="./images/icon-error.svg" alt="icon-error"
             class="icon-error l-icon"></p>
       </div>
 
       <div class="input_wrapper">
-        <input type="email" placeholder="Email Address" class="email" value="">
+         <label for="email">
+        <input type="email" name ="email" placeholder="Email Address" class="email" value="">
         <p class="errorMsg eerror">Looks like this is not an email<img src="./images/icon-error.svg" alt="icon-error"
             class="icon-error e-icon"></p>
       </div>
 
       <div class="input_wrapper">
-        <input type="password" placeholder="Password" class="password" value="">
+         <label for="password">
+        <input type="password" name="password" placeholder="Password" class="password" value="">
         <p class="errorMsg perror">Password cannot be empty<img src="./images/icon-error.svg" alt="icon-error"
             class="icon-error p-icon"></p>
       </div>
