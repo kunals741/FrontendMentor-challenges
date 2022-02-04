@@ -4,7 +4,7 @@
   font-family: "Outfit", sans-serif;
 }
 
-body {
+main {
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
   display: flex;
@@ -24,20 +24,20 @@ img {
   display: flex;
   flex-direction: column;
   padding: 16px;
-}
-.text {
+} 
+header {
   margin: 6% 0;
   text-align: center;
   margin-bottom: 10%;
 }
-.container__heading {
+heading {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   font-size: 25px;
   margin: 4% 0;
 }
 
-.container__desc {
+desc {
   font-size: 17px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
