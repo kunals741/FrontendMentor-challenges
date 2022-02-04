@@ -25,7 +25,7 @@ img {
   flex-direction: column;
   padding: 16px;
 } 
-header {
+.text {
   margin: 6% 0;
   text-align: center;
   margin-bottom: 10%;
