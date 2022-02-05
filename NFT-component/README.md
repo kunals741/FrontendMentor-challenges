@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./imgages/img.png)
+![](./images/img.png)
 
 ### Links
 
-- Solution URL: [Frontendmentor Solution](https://your-solution-url.com)
-- Live Site URL: [NFT-component](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor Solution](https://www.frontendmentor.io/solutions/nft-component-flip-card-YZ3V8VKKH)
+- Live Site URL: [NFT-component](https://myfakenft.netlify.app/)
 
 ## My process
 
