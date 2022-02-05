@@ -48,7 +48,7 @@ I learnt how to flip card by using css animations.
 
 ### Useful resources
 
-- [ Youtube - Kevil Powell ](https://youtu.be/FeJEEE3zc4U) - This video is everything, I need to learn about flipping css animation.
+- [ Youtube - Kevin Powell ](https://youtu.be/FeJEEE3zc4U) - This video is everything, I need to learn about flipping css animation.
 
 ## Author
 
