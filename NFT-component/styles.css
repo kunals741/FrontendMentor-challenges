@@ -21,6 +21,7 @@ body {
   max-width: 20.5rem;
   display: flex;
   flex-direction: column;
+  perspective: 1000px;
 }
 
 /* this card holds both front card and back card */
