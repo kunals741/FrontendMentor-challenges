@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* main window */
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* container which holds the card */
+.container {
+  border-radius: 0.625rem;
+  width: 90%;
+  max-width: 20.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* this card holds both front card and back card */
+.card {
+  background: rgb(20, 37, 61);
+  padding: 1.3125rem 1.625rem;
+  transform-style: preserve-3d;
+  transition: 2s ease-in;
+}
+
+/* have to apply this .card too, otherwise cause css glitch lol */
+.container:hover .card {
+  transform: rotateY(180deg);
+}
+
+/* preserve 3d is imp here */
+.frontcard,
+.backcard {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* rotating backcard again, as it will flip it's content */
+.backcard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+.card__img .nft-img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1.1875rem;
+  border-radius: 5px;
+}
+
+.card__img:hover {
+  background-color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card__heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card__desc {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 1.0625rem;
+  margin-bottom: 1.125rem;
+  line-height: 1.6875rem;
+}
+
+.card__buy {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.price img {
+  position: relative;
+  top: 4px;
+  padding-right: 2px;
+}
+.time {
+  color: hsl(215, 51%, 70%);
+}
+.time img {
+  position: relative;
+  top: 3px;
+  padding-right: 2px;
+}
+
+hr {
+  margin-top: 1rem;
+  border-color: hsl(215, 32%, 27%);
+  border-top: 0;
+}
+.card__owner {
+  margin-top: 14px;
+  display: flex;
+}
+
+.avatar {
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+}
+
+.owner {
+  color: hsl(215, 51%, 70%);
+  padding-left: 1.125rem;
+  position: relative;
+  top: 0.5625rem;
+}
+.owner__name {
+  color: white;
+  margin-left: 2px;
+}
+.owner__name:hover,
+.card__heading:hover,
+.coder:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.attribution {
+  color: hsl(215, 51%, 70%);
+  text-align: center;
+}
+
+.coder {
+  color: white;
+}
