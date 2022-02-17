@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>SPLI<br>TTER</h1>
+  </header>
+
+  <main class="container">
+    <div class="card">
+
+      <section class="part1">
+        <section class="bill">
+          <h3>Bill</h3>
+          <img src="./images/icon-dollar.svg" alt="dollar-sign" class="icon">
+          <input type="number" class="ip" placeholder="0" id="billValue">
+        </section>
+        <section class="tip-ip">
+          <h3>Select Tip %</h3>
+          <ul class="tip-grid">
+            <li class="tip-cell">5%</li>
+            <li class="tip-cell">10%</li>
+            <li class="tip-cell">15%</li>
+            <li class="tip-cell">25%</li>
+            <li class="tip-cell">50%</li>
+            <input type="number" placeholder="Custom" class=" grid-ip ip" id="customTip">
+          </ul>
+        </section>
+        <section class="people">
+          <h3 class="peopleH">
+            <p>Number of People</p>
+            <p class="warning">Can't be zero</p>
+          </h3>
+          <img src="./images/icon-person.svg" alt="person-sign" class="icon">
+          <input type="number" placeholder="0" required class="ip" id="npeople">
+        </section>
+      </section>
+
+      <section class="part2">
+        <section class="output">
+          <p class="output-desc">Tip Amount <br><span class="p">/ person</span></p>
+          <p class="output-res"><img src="./images/icon-dollar.svg" alt="dollar-sign" class="res-icon"><span
+              class="tipres">0.0</span></p>
+          <p class="output-desc"> Total<br><span class="p">/ person</span>
+          </p>
+          <p class="output-res"> <img src="./images/icon-dollar.svg" alt="dollar-sign" class="res-icon"><span
+              class="totalres">0.0</span></p>
+          <button class="reset-btn">Reset</button>
+        </section>
+      </section>
+    </div>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kunal</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
