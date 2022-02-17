@@ -17,10 +17,12 @@ h1 {
   letter-spacing: 0.688rem;
 }
 
-h3 {
+h2,
+.peopleH {
   color: hsl(186, 14%, 43%);
   font-weight: 700;
   margin-bottom: 0.625rem;
+  font-size: 1rem;
 }
 li {
   list-style: none;
@@ -157,10 +159,6 @@ input:focus {
 }
 .reset-btn:hover {
   background-color: hsl(185, 41%, 84%);
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
