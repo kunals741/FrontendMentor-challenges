@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/tip-calculator-app-mobile-first-workflow-u_2uiEwmA)
+- Live Site URL: [mytip-calculator](https://mytip-calculator.netlify.app/)
 
 ## My process
 
