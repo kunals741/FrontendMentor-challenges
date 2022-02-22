@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor Solution](https://your-solution-url.com)
-- Live Site URL: [FreeAdvice-netlify.com](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor Solution](https://www.frontendmentor.io/solutions/advice-generator-with-skeleton-loading-animation-adviceslip-api-SRayqKIwv)
+- Live Site URL: [freeadviceforyou.netlify.com](https://freeadviceforyou.netlify.app/)
 
 ## My process
 
